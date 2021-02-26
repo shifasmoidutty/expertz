@@ -1,0 +1,15 @@
+.tbl{
+    border-collapse: collapse;
+}
+.theader{
+    background-color: burlywood;
+}
+.theader:hover{
+    background-color: cornflowerblue;
+}
+.rowcls:nth-child(even){
+    background-color: darkcyan;
+}
+.rowcls:hover:nth-child(odd){
+    background-color: darksalmon;
+}
